@@ -460,7 +460,7 @@ function WriteFile()
 
     $.ajax({
 				type: "POST",
-				url: "core/fileManager.php",
+				url: "http://163.44.152.155/core/fileManager.php",
 				data: {'op':'writeoutput', 'template':template.name, 'subject': subject, 'data': str},
 				async:false,
 				dataType: "json",

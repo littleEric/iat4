@@ -214,7 +214,7 @@
             var bv = $form.data('bootstrapValidator');
             $.ajax({
                 type: 'POST',
-                url: "core/writebasicInfo.php",
+                url: "http://163.44.152.155/core/writebasicInfo.php",
                 data: info,
                 dataType: "json",
                 success: function(data) {
